@@ -18,10 +18,7 @@ from django.utils.timezone import timedelta
 
 @api_view(['GET'])
 def getRoutes(request):
-    routes = [
-        '/api/token',
-        '/api/token/refresh'
-    ]
+    routes = "you need permission to access routes"
     return Response(routes)
 
 

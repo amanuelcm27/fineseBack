@@ -171,3 +171,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS=True
+STATIC_URL = '/static/'  # URL to use when referring to static files
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # Directory where collected static files will be placed
